@@ -1,14 +1,14 @@
 <template>
   <v-app id="inspire">
-    <v-app-bar app flat>
+    <!-- <v-app-bar app flat>
       <v-avatar
         :color="$vuetify.breakpoint.smAndDown ? 'grey darken-1' : 'transparent'"
         size="32"
       ></v-avatar>
 
       <v-tabs centered class="ml-n9">
-        <v-tab v-for="link in links" :key="link">
-          {{ link }}
+        <v-tab>
+          {{ this.$route.name }}
         </v-tab>
       </v-tabs>
 
@@ -16,8 +16,9 @@
         class="hidden-sm-and-down"
         color="grey darken-1 shrink"
         size="32"
-      ></v-avatar>
-    </v-app-bar>
+      >
+      </v-avatar>
+    </v-app-bar> -->
 
     <v-main>
       <v-container>

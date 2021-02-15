@@ -1,5 +1,5 @@
 <template>
-  <form class="container">
+  <form class="container" @submit.prevent="addPost">
     <div class="columns has-text-centered is-horizontal is-centered">
       <div class="column is-three-quarters is-6 is-fullheight">
         <label class="label mt-2">Link</label>
@@ -28,12 +28,9 @@
     </div>
     <div class="columns has-text-centered is-horizontal is-centered">
       <div class="column is-fullheight">
-        <p
-          @click="handleSubmit"
-          class="button is-dark is-transparent is-fullwidth is-bold"
-        >
+        <button class="button is-dark is-transparent is-fullwidth is-bold">
           Submit
-        </p>
+        </button>
         <p
           class="is-bold is-justified is-fullwidth mb-0"
           style="
@@ -53,6 +50,7 @@
 export default {
   name: "MakePost",
   data() {
+    
     return {
       post: {
         link: "",
@@ -61,9 +59,12 @@ export default {
     };
   },
   methods: {
-    handleSubmit() {
-      console.log("submitted" + this.post.link);
-    },
-  },
-};
+    addPost() {
+      let uri = '//localhost:4000/posts/add';
+    this.axios.post(uri, this.post).then(() => {
+       this.$router.push({name: 'posts'});
+    });
+  }
+  }
+}
 </script>
