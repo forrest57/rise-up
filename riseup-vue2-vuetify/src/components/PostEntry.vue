@@ -1,12 +1,11 @@
 <template>
   <v-lazy
-    v-model="isActive"
     :options="{
       threshold: 0.5,
     }"
     transition="fade-transition"
   >
-    <div style="display: flex; width: 100%;">
+    <div style="display: flex; width: 100%">
       <figure class="media-left">
         <img class="image is-64x64" />
         <!--           :src="submission.submissionImage"-->
@@ -26,15 +25,20 @@
         <br />
         <small class="is-size-7 has-text-weight-light is-transparent">
           <img class="image is-24x24 mr-2" />
-          username #1234
+          username #
+          {{ post.posterDisplayID }}
           <!--                 :src="submission.avatar">-->
         </small>
       </p>
       <div class="media-right">
         <span class="icon is-small">
           <i class="fas fa-chevron-up pr-2" @click="upvote()"> </i>
-          <strong class="is-transparent">{{ post.votes }}</strong>
+          <strong class="is-transparent pr-1">{{ post.votes }}</strong>
         </span>
+        <!-- <br /><br /><br />
+        <i class="pb-0 mb-0">
+          <p>edit me!</p>
+        </i> -->
       </div>
     </div>
   </v-lazy>
@@ -45,16 +49,12 @@ export default {
   props: {
     post: Object,
   },
-  // data() {
-  //   return {
-  //     post: {
-  //       upvotes: 0
-  //     }
-  //   }
-  // },
   methods: {
     upvote() {
       this.post.votes++;
+      let uri = "//localhost:4000/posts/update/"+this.post._id;
+      this.axios.post(uri, this.post).then(() => {
+      });
     },
   },
 };

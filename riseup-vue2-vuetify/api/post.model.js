@@ -10,6 +10,15 @@ let Post = new Schema(
     description: {
       type: String,
     },
+    votes: {
+      type: Number,
+    },
+    displayID: {
+      type: Number,
+    },
+    posterID: { //_id of posting user
+      type: Number, 
+    },
   },
   {
     collection: "posts",

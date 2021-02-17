@@ -7,7 +7,7 @@
           <textarea
             v-model="post.link"
             class="textarea has-fixed-size is-dark"
-            placeholder="somethingsomething.freespeech"
+            placeholder="SomethingSomething.freespeech"
           >
           </textarea>
         </div>
@@ -55,6 +55,9 @@ export default {
       post: {
         link: "",
         description: "",
+        votes: 0,
+        displayID: 0,
+        posterDisplayID: 1234
       },
     };
   },
@@ -62,7 +65,7 @@ export default {
     addPost() {
       let uri = '//localhost:4000/posts/add';
     this.axios.post(uri, this.post).then(() => {
-       this.$router.push({name: 'posts'});
+       this.$router.go();
     });
   }
   }

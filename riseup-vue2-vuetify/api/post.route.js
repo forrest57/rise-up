@@ -46,6 +46,7 @@ postRoutes.route("/update/:id").post(function(req, res) {
     else {
       post.title = req.body.title
       post.body = req.body.body
+      post.votes= req.body.votes
       post
         .save()
         .then(() => {

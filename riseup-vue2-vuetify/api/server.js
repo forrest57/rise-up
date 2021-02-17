@@ -6,6 +6,7 @@ const cors = require("cors")
 const config = require("./DB.js")
 const mongoose = require("mongoose")
 const postRoute = require("./post.route")
+const userRoute = require("./user.route")
 
 mongoose.Promise = global.Promise
 mongoose.connect(config.DB, { useNewUrlParser: true }).then(
@@ -22,6 +23,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
 app.use("/posts", postRoute)
+app.use("/users", userRoute)
 
 app.listen(PORT, function() {
   console.log("Server is running on Port:", PORT)

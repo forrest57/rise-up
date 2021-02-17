@@ -1,6 +1,6 @@
 <template>
   <div class="section">
-    <article class="box dark-light mb-4" v-for="post in sortedPosts" :key="post.id">
+    <article class="box dark-light mb-4" v-for="post in sortedPosts" :key="post._id">
       <post-entry :post="post" />
     </article>
   </div>
