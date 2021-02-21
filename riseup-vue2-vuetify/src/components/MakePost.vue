@@ -40,7 +40,7 @@
           "
         >
           By submitting you agree to the <br />
-          <a href="#">Terms and Conditions</a>
+          <a href="/termsandconditions">Terms and Conditions</a>
         </p>
       </div>
     </div>

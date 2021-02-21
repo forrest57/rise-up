@@ -17,10 +17,11 @@
           v-for="(item, index) in items"
           :key="index"
         >
+          <a v-bind:href=item.link>
           <v-list-item-title
             class="user-menu"
-            >{{ item.title }}</v-list-item-title
-          >
+            >{{ item.title }}</v-list-item-title>
+            </a>
         </v-list-item>
       </v-list>
     </v-menu>
@@ -31,9 +32,10 @@ export default {
   name: "UserMenu",
   data: () => ({
     items: [
-      { title: "User page" },
-      { title: "Show Posts" },
-      { title: "Log out" },
+      { title: "Log In", link:"/login" },
+      { title: "User page", link:"/userpage" },
+      { title: "Show Posts", link:"/myposts" },
+      { title: "Log out", link: "logout" },
     ],
   }),
 };

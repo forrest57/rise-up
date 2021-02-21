@@ -2,6 +2,7 @@ import Vue from "vue"
 import VueRouter, { RouteConfig } from "vue-router"
 import Home from "../views/Home.vue"
 import Posts from "../views/Posts.vue"
+import Terms from "../views/TermsAndConditions.vue"
 
 Vue.use(VueRouter)
 
@@ -26,9 +27,19 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: "/posts",
-    name: "",
+    path: "/myposts",
+    name: "your posts",
     component: Posts, 
+  },
+  {
+    path: "/login",
+    name: "welcome",
+    component: () => import(/* webpackChunkName: "about" */ '../views/LogIn.vue')
+  },
+  {
+    path: "/termsandconditions",
+    name: "agreement",
+    component:Terms
   }
 ]
 
