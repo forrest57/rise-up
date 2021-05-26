@@ -10,7 +10,7 @@
       <template v-slot:activator="{ on, attrs }">
         <v-btn class="primary is-dark"   v-bind="attrs" v-on="on">
           <v-avatar size="32" >
-          <img :src="currentUser.img" />
+          <img v-if="loggedIn" :src="currentUser.img" />
           </v-avatar>
         </v-btn>
       </template>

@@ -3,3 +3,4 @@
    export const passwordMatch = new RegExp(/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/)
    export const usernameMatch = new RegExp(/^(?=[a-zA-Z0-9._]{2,20}$)(?!.*[_.]{2})[^_.].*[^_.]$/)
    export const linkMatch = new RegExp(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/)
+   export const userPFPs= ["https://i.ibb.co/XtYLhxp/upvote-icon.png","https://i.ibb.co/dtCnnm6/vuejs-icon.png"]

@@ -55,7 +55,7 @@
 </template>
 <script>
 import Post from "../models/post";
-import { linkMatch } from "../logic";
+import { linkMatch, userPFPs } from "../logic";
 export default {
   name: "MakePost",
   data() {
@@ -72,7 +72,7 @@ export default {
   methods: {
     addPost() {
       if (this.validLink) {
-        this.post.poster={username: this.currentUser.username, id: this.currentUser.id, img : 1}
+        this.post.poster={username: this.currentUser.username, id: this.currentUser.id, img : userPFPs.indexOf(this.currentUser.img)}
         let uri = "//localhost:4000/posts/add";
         this.axios.post(uri, this.post).then(() => {
           this.$router.go();

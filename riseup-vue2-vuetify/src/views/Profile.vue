@@ -18,8 +18,8 @@
           v-for="(item, index) in propics"
           :key="index"
           class="image is-24x24 mx-1"
-          :src="item.src"
-          @click="postImage(item.src)"
+          :src="item"
+          @click="postImage(item)"
         />
       </div>
     </div>
@@ -67,19 +67,11 @@
   </div>
 </template>
 <script>
+import { userPFPs } from '../logic';
 export default {
   name: "Profile",
   data: () => ({
-    propics: [
-      {
-        src:
-          "https://i.ibb.co/XtYLhxp/upvote-icon.png",
-      },
-      {
-        src:
-          "https://i.ibb.co/dtCnnm6/vuejs-icon.png",
-      },
-    ],
+    propics: userPFPs
   }),
   computed: {
     currentUser() {
@@ -96,7 +88,7 @@ export default {
       //   this.$router.go();
       // });
       // console.log(toPostUser.username)
-      this.$store.dispatch('auth/imgchange',toPostUser).then()//TODO:: hot reload user img
+      this.$store.dispatch('auth/imgchange',toPostUser)//TODO:: hot reload user img
     },
   },
 };
