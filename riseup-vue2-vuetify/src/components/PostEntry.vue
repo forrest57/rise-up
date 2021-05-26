@@ -33,7 +33,7 @@
       </p>
       <div class="media-right">
         <span class="icon is-small">
-          <i class="fas fa-chevron-up pr-2" @click="upvote()"> </i>
+          <i class="fas fa-chevron-up pr-2" @click="preview"> </i>
           <strong class="is-transparent pr-1">{{ post.votes }}</strong>
         </span>
         <!-- <br /><br /><br />
@@ -45,7 +45,8 @@
   </v-lazy>
 </template>
 <script>
-import UserPortrait from "./UserPortrait";
+import UserPortrait from "./UserPortrait"
+import { getLinkPreview, getPreviewFromContent } from 'link-preview-js'
 export default {
   name: "post-entry",
   data() {
@@ -65,7 +66,12 @@ export default {
       let uri = "//localhost:4000/posts/update/" + this.post._id;
       this.axios.post(uri, this.post).then(() => {}); //TODO:: REDO THIS, DONT REUPLOAD WHOLE POST(PATCH route)
     },
+    preview(){
+      getLinkPreview(this.post.link).then((data)=> console.log(data))
+    }
   },
+  computed:{
+  }
 };
 </script>
 <style src="../../public/styles.css"></style>

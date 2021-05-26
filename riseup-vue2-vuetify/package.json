@@ -10,6 +10,7 @@
     "axios": "^0.21.1",
     "bulma": "^0.9.2",
     "core-js": "^3.6.5",
+    "link-preview-js": "^2.1.6",
     "vee-validate": "^2.2.15",
     "vue": "^2.6.11",
     "vue-axios": "^3.2.4",
