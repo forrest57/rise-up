@@ -1,0 +1,4 @@
+fastApi_backend/app/database.py
+fastApi_backend/app/settings.py
+**/__pycache__
+**/.idea

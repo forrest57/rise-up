@@ -1,0 +1,863 @@
+[
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "APIRoute",
+        "importPath": "fastapi.routing",
+        "description": "fastapi.routing",
+        "isExtraImport": true,
+        "detail": "fastapi.routing",
+        "documentation": {}
+    },
+    {
+        "label": "crud.crud_user",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "crud.crud_user",
+        "description": "crud.crud_user",
+        "detail": "crud.crud_user",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "User_schema",
+        "importPath": "schemasPydantic",
+        "description": "schemasPydantic",
+        "isExtraImport": true,
+        "detail": "schemasPydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Post_schema",
+        "importPath": "schemasPydantic",
+        "description": "schemasPydantic",
+        "isExtraImport": true,
+        "detail": "schemasPydantic",
+        "documentation": {}
+    },
+    {
+        "label": "User_schema",
+        "importPath": "schemasPydantic",
+        "description": "schemasPydantic",
+        "isExtraImport": true,
+        "detail": "schemasPydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base_class",
+        "description": "app.db.base_class",
+        "isExtraImport": true,
+        "detail": "app.db.base_class",
+        "documentation": {}
+    },
+    {
+        "label": "Post_model",
+        "importPath": "modelsTables",
+        "description": "modelsTables",
+        "isExtraImport": true,
+        "detail": "modelsTables",
+        "documentation": {}
+    },
+    {
+        "label": "User_model",
+        "importPath": "modelsTables",
+        "description": "modelsTables",
+        "isExtraImport": true,
+        "detail": "modelsTables",
+        "documentation": {}
+    },
+    {
+        "label": "User_model",
+        "importPath": "modelsTables",
+        "description": "modelsTables",
+        "isExtraImport": true,
+        "detail": "modelsTables",
+        "documentation": {}
+    },
+    {
+        "label": "Post_model",
+        "importPath": "modelsTables",
+        "description": "modelsTables",
+        "isExtraImport": true,
+        "detail": "modelsTables",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "importPath": "api.api",
+        "description": "api.api",
+        "isExtraImport": true,
+        "detail": "api.api",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "app.modelsTables.User_model",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.modelsTables.User_model",
+        "description": "app.modelsTables.User_model",
+        "detail": "app.modelsTables.User_model",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRoute",
+        "kind": 6,
+        "importPath": "fastApi_backend.app.api.endpoints.login",
+        "description": "fastApi_backend.app.api.endpoints.login",
+        "peekOfCode": "class LoginRoute(APIRoute):\n    pass\nrouter = APIRouter(route_class=LoginRoute)",
+        "detail": "fastApi_backend.app.api.endpoints.login",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "fastApi_backend.app.api.endpoints.login",
+        "description": "fastApi_backend.app.api.endpoints.login",
+        "peekOfCode": "router = APIRouter(route_class=LoginRoute)",
+        "detail": "fastApi_backend.app.api.endpoints.login",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.api.endpoints.users",
+        "description": "fastApi_backend.app.api.endpoints.users",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close\n@router.get('/{username}', response_model=User_schema.User)\ndef get_user(username: str, db: Session = Depends(get_db)):\n    # return {'gotten': username}\n    # return connection.execute(users.select().where(users.Column.username == username)).fetchall()",
+        "detail": "fastApi_backend.app.api.endpoints.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.api.endpoints.users",
+        "description": "fastApi_backend.app.api.endpoints.users",
+        "peekOfCode": "def get_user(username: str, db: Session = Depends(get_db)):\n    # return {'gotten': username}\n    # return connection.execute(users.select().where(users.Column.username == username)).fetchall()\n    db_user = user_crud.get_user(db, username=username)\n    if db_user is None:\n        raise HTTPException(status_code=404, detail='user not found')\n    return db_user\n@router.patch('/update/{username}', response_model=User_schema.User)\ndef update_user(username: str, new_user: User_schema.UserCreate, db: Session = Depends(get_db)):\n    if user_crud.get_user(db, username=username):",
+        "detail": "fastApi_backend.app.api.endpoints.users",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.api.endpoints.users",
+        "description": "fastApi_backend.app.api.endpoints.users",
+        "peekOfCode": "def update_user(username: str, new_user: User_schema.UserCreate, db: Session = Depends(get_db)):\n    if user_crud.get_user(db, username=username):\n        if username != new_user.username:\n            if user_crud.get_user(db, username=new_user.username) is None:\n                return user_crud.update_user(db, username=username, new_user=new_user)\n            raise HTTPException(\n                status_code=401, detail='Unhable to change username into an existing one')\n        return user_crud.update_user(db, username=username, new_user=new_user)\n    raise HTTPException(status_code=401, detail='user does not exist')\n@router.post('/login')",
+        "detail": "fastApi_backend.app.api.endpoints.users",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.api.endpoints.users",
+        "description": "fastApi_backend.app.api.endpoints.users",
+        "peekOfCode": "def login(user: User_schema.User):\n    #TODO:: ADD LOGIN AND AUTH LOGIC\n    return(user)\n@router.post('/register', response_model=User_schema.User)\ndef sign_up(user: User_schema.UserCreate, db: Session = Depends(get_db)):\n    db_user = user_crud.get_user(db,  username=user.username)\n    if db_user:\n        raise HTTPException(status_code=400, detail='user already registered')\n    return user_crud.create_user(db=db,  user=user)",
+        "detail": "fastApi_backend.app.api.endpoints.users",
+        "documentation": {}
+    },
+    {
+        "label": "sign_up",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.api.endpoints.users",
+        "description": "fastApi_backend.app.api.endpoints.users",
+        "peekOfCode": "def sign_up(user: User_schema.UserCreate, db: Session = Depends(get_db)):\n    db_user = user_crud.get_user(db,  username=user.username)\n    if db_user:\n        raise HTTPException(status_code=400, detail='user already registered')\n    return user_crud.create_user(db=db,  user=user)",
+        "detail": "fastApi_backend.app.api.endpoints.users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "fastApi_backend.app.api.endpoints.users",
+        "description": "fastApi_backend.app.api.endpoints.users",
+        "peekOfCode": "router = APIRouter(\n    # route_class=UsersRoute\n)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close\n@router.get('/{username}', response_model=User_schema.User)",
+        "detail": "fastApi_backend.app.api.endpoints.users",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "kind": 5,
+        "importPath": "fastApi_backend.app.api.api",
+        "description": "fastApi_backend.app.api.api",
+        "peekOfCode": "api_router = APIRouter()\napi_router.include_router(login.router, tags=['login'])\napi_router.include_router(users.router, prefix='/users', tags=['users'])\n# api_router.include_router(users.router, prefix='/posts', tags=['posts'])",
+        "detail": "fastApi_backend.app.api.api",
+        "documentation": {}
+    },
+    {
+        "label": "CRUDBase",
+        "kind": 6,
+        "importPath": "fastApi_backend.app.crud.base",
+        "description": "fastApi_backend.app.crud.base",
+        "peekOfCode": "class CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):\n    def __init__(self, model: Type[ModelType]):\n        \"\"\"\n        CRUD object with default methods to Create, Read, Update, Delete (CRUD).\n        **Parameters**\n        * `model`: A SQLAlchemy model class\n        * `schema`: A Pydantic model (schema) class\n        \"\"\"\n        self.model = model\n    def get(self, db: Session, id: Any) -> Optional[ModelType]:",
+        "detail": "fastApi_backend.app.crud.base",
+        "documentation": {}
+    },
+    {
+        "label": "ModelType",
+        "kind": 5,
+        "importPath": "fastApi_backend.app.crud.base",
+        "description": "fastApi_backend.app.crud.base",
+        "peekOfCode": "ModelType = TypeVar(\"ModelType\", bound=Base)\nCreateSchemaType = TypeVar(\"CreateSchemaType\", bound=BaseModel)\nUpdateSchemaType = TypeVar(\"UpdateSchemaType\", bound=BaseModel)\nclass CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):\n    def __init__(self, model: Type[ModelType]):\n        \"\"\"\n        CRUD object with default methods to Create, Read, Update, Delete (CRUD).\n        **Parameters**\n        * `model`: A SQLAlchemy model class\n        * `schema`: A Pydantic model (schema) class",
+        "detail": "fastApi_backend.app.crud.base",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSchemaType",
+        "kind": 5,
+        "importPath": "fastApi_backend.app.crud.base",
+        "description": "fastApi_backend.app.crud.base",
+        "peekOfCode": "CreateSchemaType = TypeVar(\"CreateSchemaType\", bound=BaseModel)\nUpdateSchemaType = TypeVar(\"UpdateSchemaType\", bound=BaseModel)\nclass CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):\n    def __init__(self, model: Type[ModelType]):\n        \"\"\"\n        CRUD object with default methods to Create, Read, Update, Delete (CRUD).\n        **Parameters**\n        * `model`: A SQLAlchemy model class\n        * `schema`: A Pydantic model (schema) class\n        \"\"\"",
+        "detail": "fastApi_backend.app.crud.base",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateSchemaType",
+        "kind": 5,
+        "importPath": "fastApi_backend.app.crud.base",
+        "description": "fastApi_backend.app.crud.base",
+        "peekOfCode": "UpdateSchemaType = TypeVar(\"UpdateSchemaType\", bound=BaseModel)\nclass CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):\n    def __init__(self, model: Type[ModelType]):\n        \"\"\"\n        CRUD object with default methods to Create, Read, Update, Delete (CRUD).\n        **Parameters**\n        * `model`: A SQLAlchemy model class\n        * `schema`: A Pydantic model (schema) class\n        \"\"\"\n        self.model = model",
+        "detail": "fastApi_backend.app.crud.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_post",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.crud.crud_post",
+        "description": "fastApi_backend.app.crud.crud_post",
+        "peekOfCode": "def get_post(db: Session, link:  str):\n    post = db.query(Post_model.Post).filter(\n        Post_model.Post.link == link).first()\n    # print(user)\n    return post\ndef create_post(db: Session, post: Post_schema.PostCreate):\n    to_hash_password = user.password  # TODO:: add jwt w/pass hashing\n    db_user = User_model.User(\n        username=user.username, password=to_hash_password, email=user.email)\n    db.add(db_user)",
+        "detail": "fastApi_backend.app.crud.crud_post",
+        "documentation": {}
+    },
+    {
+        "label": "create_post",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.crud.crud_post",
+        "description": "fastApi_backend.app.crud.crud_post",
+        "peekOfCode": "def create_post(db: Session, post: Post_schema.PostCreate):\n    to_hash_password = user.password  # TODO:: add jwt w/pass hashing\n    db_user = User_model.User(\n        username=user.username, password=to_hash_password, email=user.email)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user\ndef update_post(db: Session, username: str, new_user: User_schema.UserCreate):\n    db.query(User_model.User).filter(",
+        "detail": "fastApi_backend.app.crud.crud_post",
+        "documentation": {}
+    },
+    {
+        "label": "update_post",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.crud.crud_post",
+        "description": "fastApi_backend.app.crud.crud_post",
+        "peekOfCode": "def update_post(db: Session, username: str, new_user: User_schema.UserCreate):\n    db.query(User_model.User).filter(\n        User_model.User.username == username).update({'username': new_user.username,\n                                                      'email': new_user.email,\n                                                      'img': new_user.img,\n                                                      'password': new_user.password})\n    db.commit()\n    return new_user\ndef delete_post(db: Session, link: str, authstr: str):",
+        "detail": "fastApi_backend.app.crud.crud_post",
+        "documentation": {}
+    },
+    {
+        "label": "delete_post",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.crud.crud_post",
+        "description": "fastApi_backend.app.crud.crud_post",
+        "peekOfCode": "def delete_post(db: Session, link: str, authstr: str):",
+        "detail": "fastApi_backend.app.crud.crud_post",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.crud.crud_user",
+        "description": "fastApi_backend.app.crud.crud_user",
+        "peekOfCode": "def get_user(db: Session, username:  str):\n    user = db.query(User_model.User).filter(\n        User_model.User.username == username).first()\n    # print(user)\n    return user\ndef create_user(db: Session, user: User_schema.UserCreate):\n    to_hash_password = user.password  # TODO:: add jwt w/pass hashing\n    db_user = User_model.User(\n        username=user.username, password=to_hash_password, email=user.email)\n    db.add(db_user)",
+        "detail": "fastApi_backend.app.crud.crud_user",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.crud.crud_user",
+        "description": "fastApi_backend.app.crud.crud_user",
+        "peekOfCode": "def create_user(db: Session, user: User_schema.UserCreate):\n    to_hash_password = user.password  # TODO:: add jwt w/pass hashing\n    db_user = User_model.User(\n        username=user.username, password=to_hash_password, email=user.email)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user\ndef update_user(db: Session,username:str, new_user: User_schema.UserCreate):\n    db.query(User_model.User).filter(",
+        "detail": "fastApi_backend.app.crud.crud_user",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "fastApi_backend.app.crud.crud_user",
+        "description": "fastApi_backend.app.crud.crud_user",
+        "peekOfCode": "def update_user(db: Session,username:str, new_user: User_schema.UserCreate):\n    db.query(User_model.User).filter(\n        User_model.User.username == username).update({'username': new_user.username,\n                                                  'email':new_user.email,\n                                                  'img':new_user.img,\n                                                  'password':new_user.password})\n    db.commit()\n    return new_user",
+        "detail": "fastApi_backend.app.crud.crud_user",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "fastApi_backend.app.modelsTables.Post_model",
+        "description": "fastApi_backend.app.modelsTables.Post_model",
+        "peekOfCode": "class Post(Base):\n    __tablename__ = 'posts'\n    link = Column(String(255), unique=True, index=True, primary_key=True)\n    description = Column(Text, nullable=True)\n    likes = Column(Integer, nullable=True)\n    poster_username = Column(String(25), ForeignKey(\"users.username\"))\n    poster = relationship(\"User\", back_populates=\"posts\")",
+        "detail": "fastApi_backend.app.modelsTables.Post_model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "fastApi_backend.app.modelsTables.User_model",
+        "description": "fastApi_backend.app.modelsTables.User_model",
+        "peekOfCode": "class User(Base):\n    __tablename__ = 'users'\n    # id = Column(Integer, primary_key=False, index=False,\n    #             unique=True, autoincrement=True)\n    username = Column(String(25), primary_key=True, unique=True, index=True)\n    email = Column(String(180),nullable=True)\n    password = Column(String(180))\n    img = Column(String(255),nullable=True)\n    posts = relationship('Post', back_populates='poster')",
+        "detail": "fastApi_backend.app.modelsTables.User_model",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "kind": 6,
+        "importPath": "fastApi_backend.app.schemasPydantic.Post_schema",
+        "description": "fastApi_backend.app.schemasPydantic.Post_schema",
+        "peekOfCode": "class PostBase(BaseModel):\n    description: Optional[str] = None\n    likes: Optional[int] = None\n    link: str\n    poster_username: str\nclass PostCreate(PostBase):\n    pass\nclass Post(PostBase):\n    class Config:\n        orm_mode = True",
+        "detail": "fastApi_backend.app.schemasPydantic.Post_schema",
+        "documentation": {}
+    },
+    {
+        "label": "PostCreate",
+        "kind": 6,
+        "importPath": "fastApi_backend.app.schemasPydantic.Post_schema",
+        "description": "fastApi_backend.app.schemasPydantic.Post_schema",
+        "peekOfCode": "class PostCreate(PostBase):\n    pass\nclass Post(PostBase):\n    class Config:\n        orm_mode = True",
+        "detail": "fastApi_backend.app.schemasPydantic.Post_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "fastApi_backend.app.schemasPydantic.Post_schema",
+        "description": "fastApi_backend.app.schemasPydantic.Post_schema",
+        "peekOfCode": "class Post(PostBase):\n    class Config:\n        orm_mode = True",
+        "detail": "fastApi_backend.app.schemasPydantic.Post_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "fastApi_backend.app.schemasPydantic.User_schema",
+        "description": "fastApi_backend.app.schemasPydantic.User_schema",
+        "peekOfCode": "class UserBase(BaseModel):\n    username: str\n    email: Optional[str] = None\n    img: Optional[str] = None\nclass UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    posts: List[Post] = []\n    class Config:\n        orm_mode = True",
+        "detail": "fastApi_backend.app.schemasPydantic.User_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "fastApi_backend.app.schemasPydantic.User_schema",
+        "description": "fastApi_backend.app.schemasPydantic.User_schema",
+        "peekOfCode": "class UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    posts: List[Post] = []\n    class Config:\n        orm_mode = True",
+        "detail": "fastApi_backend.app.schemasPydantic.User_schema",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "fastApi_backend.app.schemasPydantic.User_schema",
+        "description": "fastApi_backend.app.schemasPydantic.User_schema",
+        "peekOfCode": "class User(UserBase):\n    posts: List[Post] = []\n    class Config:\n        orm_mode = True",
+        "detail": "fastApi_backend.app.schemasPydantic.User_schema",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "fastApi_backend.app.database",
+        "description": "fastApi_backend.app.database",
+        "peekOfCode": "engine = create_engine(\n    'mysql+pymysql://forrest:YaraPuttana11!@localhost:3306/riseup_development')\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\n# connection = engine.connect()\n# result = connection.execute(text(\"select 'riseup-development'\"))\n# print(result.all())",
+        "detail": "fastApi_backend.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "fastApi_backend.app.database",
+        "description": "fastApi_backend.app.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\n# connection = engine.connect()\n# result = connection.execute(text(\"select 'riseup-development'\"))\n# print(result.all())",
+        "detail": "fastApi_backend.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "fastApi_backend.app.database",
+        "description": "fastApi_backend.app.database",
+        "peekOfCode": "Base = declarative_base()\n# connection = engine.connect()\n# result = connection.execute(text(\"select 'riseup-development'\"))\n# print(result.all())",
+        "detail": "fastApi_backend.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "fastApi_backend.app.main",
+        "description": "fastApi_backend.app.main",
+        "peekOfCode": "app = FastAPI(title='riseUp')\napp.include_router(api_router, prefix='/api')\n# if settings.BACKEND_CORS_ORIGINS:\n#     app.add_middleware(\n#         CORSMiddleware,\n#         allow_origins=[str(origin) for origin in settings.BACKEND_CORS_ORIGINS],\n#         allow_credentials=True,\n#         allow_methods=[\"*\"],\n#         allow_headers=[\"*\"],\n#     )",
+        "detail": "fastApi_backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "fastApi_backend.env.bin.activate_this",
+        "description": "fastApi_backend.env.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.8/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "fastApi_backend.env.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "fastApi_backend.env.bin.activate_this",
+        "description": "fastApi_backend.env.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.8/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]",
+        "detail": "fastApi_backend.env.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "fastApi_backend.env.bin.activate_this",
+        "description": "fastApi_backend.env.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.8/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "fastApi_backend.env.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "fastApi_backend.env.bin.activate_this",
+        "description": "fastApi_backend.env.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.8/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "fastApi_backend.env.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "fastApi_backend.env.bin.activate_this",
+        "description": "fastApi_backend.env.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.8/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "fastApi_backend.env.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "fastApi_backend.env.bin.activate_this",
+        "description": "fastApi_backend.env.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "fastApi_backend.env.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "fastApi_backend.env.bin.activate_this",
+        "description": "fastApi_backend.env.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "fastApi_backend.env.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "fastApi_backend.env.bin.activate_this",
+        "description": "fastApi_backend.env.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "fastApi_backend.env.bin.activate_this",
+        "documentation": {}
+    }
+]

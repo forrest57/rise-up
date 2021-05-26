@@ -1,0 +1,757 @@
+[
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "APIRoute",
+        "importPath": "fastapi.routing",
+        "description": "fastapi.routing",
+        "isExtraImport": true,
+        "detail": "fastapi.routing",
+        "documentation": {}
+    },
+    {
+        "label": "APIRoute",
+        "importPath": "fastapi.routing",
+        "description": "fastapi.routing",
+        "isExtraImport": true,
+        "detail": "fastapi.routing",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.User_model",
+        "description": "models.User_model",
+        "isExtraImport": true,
+        "detail": "models.User_model",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "AnyHttpUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "HttpUrl",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "PostgresDsn",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base_class",
+        "description": "app.db.base_class",
+        "isExtraImport": true,
+        "detail": "app.db.base_class",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base_class",
+        "description": "app.db.base_class",
+        "isExtraImport": true,
+        "detail": "app.db.base_class",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base_class",
+        "description": "app.db.base_class",
+        "isExtraImport": true,
+        "detail": "app.db.base_class",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.User_model",
+        "description": "app.models.User_model",
+        "isExtraImport": true,
+        "detail": "app.models.User_model",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "importPath": "app.models.item",
+        "description": "app.models.item",
+        "isExtraImport": true,
+        "detail": "app.models.item",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "as_declarative",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declared_attr",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "crud",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "schemas",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "base_class.Base",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "session.engine",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "starlette.middleware.cors",
+        "description": "starlette.middleware.cors",
+        "isExtraImport": true,
+        "detail": "starlette.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "importPath": "api.api",
+        "description": "api.api",
+        "isExtraImport": true,
+        "detail": "api.api",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRoute",
+        "kind": 6,
+        "importPath": "app.api.endpoints.login",
+        "description": "app.api.endpoints.login",
+        "peekOfCode": "class LoginRoute(APIRoute):\n    pass\nrouter = APIRouter(route_class=LoginRoute)",
+        "detail": "app.api.endpoints.login",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.endpoints.login",
+        "description": "app.api.endpoints.login",
+        "peekOfCode": "router = APIRouter(route_class=LoginRoute)",
+        "detail": "app.api.endpoints.login",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "app.api.endpoints.users",
+        "description": "app.api.endpoints.users",
+        "peekOfCode": "def get_user(username: str):\n    return {'gotten': username}\n@router.patch('/update/{username}')\ndef update_user(username: str):\n    return{'updated': username}\n@router.post('/login')\ndef login(user: User):\n    return(user)\n@router.post('/register')\ndef sign_up():",
+        "detail": "app.api.endpoints.users",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "app.api.endpoints.users",
+        "description": "app.api.endpoints.users",
+        "peekOfCode": "def update_user(username: str):\n    return{'updated': username}\n@router.post('/login')\ndef login(user: User):\n    return(user)\n@router.post('/register')\ndef sign_up():\n    return{'message': 'signed up'}",
+        "detail": "app.api.endpoints.users",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app.api.endpoints.users",
+        "description": "app.api.endpoints.users",
+        "peekOfCode": "def login(user: User):\n    return(user)\n@router.post('/register')\ndef sign_up():\n    return{'message': 'signed up'}",
+        "detail": "app.api.endpoints.users",
+        "documentation": {}
+    },
+    {
+        "label": "sign_up",
+        "kind": 2,
+        "importPath": "app.api.endpoints.users",
+        "description": "app.api.endpoints.users",
+        "peekOfCode": "def sign_up():\n    return{'message': 'signed up'}",
+        "detail": "app.api.endpoints.users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.endpoints.users",
+        "description": "app.api.endpoints.users",
+        "peekOfCode": "router = APIRouter(\n    # route_class=UsersRoute\n)\n@router.get('/{username}')\ndef get_user(username: str):\n    return {'gotten': username}\n@router.patch('/update/{username}')\ndef update_user(username: str):\n    return{'updated': username}\n@router.post('/login')",
+        "detail": "app.api.endpoints.users",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "kind": 5,
+        "importPath": "app.api.api",
+        "description": "app.api.api",
+        "peekOfCode": "api_router = APIRouter()\napi_router.include_router(login.router, tags=['login'])\napi_router.include_router(users.router, prefix='/users', tags=['users'])\n# api_router.include_router(users.router, prefix='/posts', tags=['posts'])",
+        "detail": "app.api.api",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    API_V1_STR: str = '/api/v1'\n    SECRET_KEY: str = secrets.token_urlsafe(32)\n    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 8\n    SERVER_NAME: str\n    SERVER_HOST: AnyHttpUrl\n    BACKEND_CORS_ORIGINS: List[AnyHttpUrl] = []\n    @validator(\"BACKEND_CORS_ORIGINS\", pre=True)\n    def assemble_cors_origins(cls, v: Union[str, List[str]]) -> Union[List[str], str]:\n        if isinstance(v, str) and not v.startswith(\"[\"):",
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "CRUDBase",
+        "kind": 6,
+        "importPath": "app.crud.base",
+        "description": "app.crud.base",
+        "peekOfCode": "class CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):\n    def __init__(self, model: Type[ModelType]):\n        \"\"\"\n        CRUD object with default methods to Create, Read, Update, Delete (CRUD).\n        **Parameters**\n        * `model`: A SQLAlchemy model class\n        * `schema`: A Pydantic model (schema) class\n        \"\"\"\n        self.model = model\n    def get(self, db: Session, id: Any) -> Optional[ModelType]:",
+        "detail": "app.crud.base",
+        "documentation": {}
+    },
+    {
+        "label": "ModelType",
+        "kind": 5,
+        "importPath": "app.crud.base",
+        "description": "app.crud.base",
+        "peekOfCode": "ModelType = TypeVar(\"ModelType\", bound=Base)\nCreateSchemaType = TypeVar(\"CreateSchemaType\", bound=BaseModel)\nUpdateSchemaType = TypeVar(\"UpdateSchemaType\", bound=BaseModel)\nclass CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):\n    def __init__(self, model: Type[ModelType]):\n        \"\"\"\n        CRUD object with default methods to Create, Read, Update, Delete (CRUD).\n        **Parameters**\n        * `model`: A SQLAlchemy model class\n        * `schema`: A Pydantic model (schema) class",
+        "detail": "app.crud.base",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSchemaType",
+        "kind": 5,
+        "importPath": "app.crud.base",
+        "description": "app.crud.base",
+        "peekOfCode": "CreateSchemaType = TypeVar(\"CreateSchemaType\", bound=BaseModel)\nUpdateSchemaType = TypeVar(\"UpdateSchemaType\", bound=BaseModel)\nclass CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):\n    def __init__(self, model: Type[ModelType]):\n        \"\"\"\n        CRUD object with default methods to Create, Read, Update, Delete (CRUD).\n        **Parameters**\n        * `model`: A SQLAlchemy model class\n        * `schema`: A Pydantic model (schema) class\n        \"\"\"",
+        "detail": "app.crud.base",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateSchemaType",
+        "kind": 5,
+        "importPath": "app.crud.base",
+        "description": "app.crud.base",
+        "peekOfCode": "UpdateSchemaType = TypeVar(\"UpdateSchemaType\", bound=BaseModel)\nclass CRUDBase(Generic[ModelType, CreateSchemaType, UpdateSchemaType]):\n    def __init__(self, model: Type[ModelType]):\n        \"\"\"\n        CRUD object with default methods to Create, Read, Update, Delete (CRUD).\n        **Parameters**\n        * `model`: A SQLAlchemy model class\n        * `schema`: A Pydantic model (schema) class\n        \"\"\"\n        self.model = model",
+        "detail": "app.crud.base",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.crud.crud_user",
+        "description": "app.crud.crud_user",
+        "peekOfCode": "def create_user(user:User)\n    db.append(user)\n    return user",
+        "detail": "app.crud.crud_user",
+        "documentation": {}
+    },
+    {
+        "label": "ModelType",
+        "kind": 5,
+        "importPath": "app.crud.crud_user",
+        "description": "app.crud.crud_user",
+        "peekOfCode": "ModelType = TypeVar\ndef create_user(user:User)\n    db.append(user)\n    return user",
+        "detail": "app.crud.crud_user",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "app.db.base_class",
+        "description": "app.db.base_class",
+        "peekOfCode": "class Base:\n    id: Any\n    __name__: str\n    #tablename is auto\n    @declared_attr\n    def __tablename__(cls) -> str:\n        return cls.__name__.lower()",
+        "detail": "app.db.base_class",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "app.db.init_db",
+        "description": "app.db.init_db",
+        "peekOfCode": "def init_db(db: Session) -> None:\n    # TODO:: create tables with alembic migrations\n    # or do not comment the  next line\n    Base.metadata.create_all(bind=engine)\n    engine\n    user = crud.user.get_by_username(db, username='forrest57')\n    if not user:\n        user_in = schemas.UserCreate(\n            username='forrest57',\n            password='YaraPuttana11!',",
+        "detail": "app.db.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "peekOfCode": "engine = db.create_engine(\n    'mysql+pymysql://forrest:YaraPuttana11!@localhost:3306/riseup_development', pool_pre_ping=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nmetadata = db.MetaData()\nconnection = engine.connect()",
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nmetadata = db.MetaData()\nconnection = engine.connect()",
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "metadata",
+        "kind": 5,
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "peekOfCode": "metadata = db.MetaData()\nconnection = engine.connect()",
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "peekOfCode": "connection = engine.connect()",
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.models.User_model",
+        "description": "app.models.User_model",
+        "peekOfCode": "class User(BaseModel):\n    username: str\n    email: str\n    password: str\n    icon: str",
+        "detail": "app.models.User_model",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = FastAPI(title='riseUp')\napp.include_router(api_router, prefix='/api')\n# if settings.BACKEND_CORS_ORIGINS:\n#     app.add_middleware(\n#         CORSMiddleware,\n#         allow_origins=[str(origin) for origin in settings.BACKEND_CORS_ORIGINS],\n#         allow_credentials=True,\n#         allow_methods=[\"*\"],\n#         allow_headers=[\"*\"],\n#     )",
+        "detail": "app.main",
+        "documentation": {}
+    }
+]
