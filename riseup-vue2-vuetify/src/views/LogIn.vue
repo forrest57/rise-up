@@ -1,4 +1,3 @@
-<!--TODO:: ADD LOGIC TO CSS CHANGES-->
 <template>
   <form class="box hero dark-light mt-12 is-fullheight" @submit.prevent="logIn">
     <div class="section">

@@ -6,10 +6,11 @@
     transition="fade-transition"
   >
     <div style="display: flex; width: 100%">
-      <figure class="media-left">
-        <img class="image is-64x64" />
+      <!-- <figure class="media-left"> -->
+        <PostImg :image='this.img'/>
+        <!-- <img class="image is-64x64" :src="dataPost.img" /> -->
         <!--           :src="submission.submissionImage"-->
-      </figure>
+      <!-- </figure> -->
       <p class="media-content dark is-centered mb-0 has-text-justified">
         <strong
           class="columns title is-vcentered has-text-weight-semibold has-text-info mb-0 pt-1 ml-0"
@@ -33,7 +34,7 @@
       </p>
       <div class="media-right">
         <span class="icon is-small">
-          <i class="fas fa-chevron-up pr-2" @click="preview"> </i>
+          <i class="fas fa-chevron-up pr-2" @click="upvote"> </i>
           <strong class="is-transparent pr-1">{{ post.votes }}</strong>
         </span>
         <!-- <br /><br /><br />
@@ -45,17 +46,19 @@
   </v-lazy>
 </template>
 <script>
-import UserPortrait from "./UserPortrait"
-import { getLinkPreview, getPreviewFromContent } from 'link-preview-js'
+import UserPortrait from "./UserPortrait";
+import PostImg from './postImg';
+import { getLinkPreview, getPreviewFromContent } from "link-preview-js";
 export default {
   name: "post-entry",
   data() {
-    // return {
-    //   user: new DisplayUser("", "cane", ""),
-    // };
+    return {
+     img: String
+    };
   },
   components: {
     UserPortrait,
+    PostImg
   },
   props: {
     post: Object,
@@ -66,11 +69,29 @@ export default {
       let uri = "//localhost:4000/posts/update/" + this.post._id;
       this.axios.post(uri, this.post).then(() => {}); //TODO:: REDO THIS, DONT REUPLOAD WHOLE POST(PATCH route)
     },
-    preview(){
-      getLinkPreview(this.post.link).then((data)=> console.log(data))
-    }
+    preview() {
+      getLinkPreview(this.post.link).then((data) => console.log(data));
+    },
   },
-  computed:{
+  computed: {
+    //  linkImg() {
+    //   try{
+    //   getLinkPreview(this.post.link).then(data=>{
+    //     return data.images[0]
+    //   })
+    //   }catch{
+    //     return "https://i.ibb.co/XtYLhxp/upvote-icon.png"
+    //   }
+    // },
+  },
+  created(){
+    try{
+      getLinkPreview(this.post.link).then(data=>{
+        this.img= data.images[0]
+      })
+      }catch{
+        this.img= "https://i.ibb.co/XtYLhxp/upvote-icon.png"
+      }
   }
 };
 </script>
