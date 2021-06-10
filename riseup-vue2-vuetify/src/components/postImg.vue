@@ -10,7 +10,7 @@
 export default {
    name: "PostImg",
    props:{
-       image: String
+       image: ""
    }
 }
 </script>

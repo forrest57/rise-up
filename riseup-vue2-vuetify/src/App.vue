@@ -1,24 +1,19 @@
 <template>
   <v-app>
-    <v-app-bar app flat>
-      <v-avatar 
+    <v-app-bar app flat style="z-index: 0 !important">
+      <!-- <v-avatar 
         size="34"
-      >
+      > -->
         <UserMenu v-if="$vuetify.breakpoint.smAndDown" />
-      </v-avatar>
+      <!-- </v-avatar> -->
 
       <v-tabs centered>
         <v-tab href="/">
           {{ `RiseUp@${this.$route.name}${currentUser? ('/'+currentUser.username) : ''}` }}
         </v-tab>
       </v-tabs>
-      <v-avatar
-        class="hidden-sm-and-down"
-        size="34"
-      >
-        <UserMenu />
-      </v-avatar>
     </v-app-bar>
+     
     <router-view></router-view>
   </v-app>
 </template>

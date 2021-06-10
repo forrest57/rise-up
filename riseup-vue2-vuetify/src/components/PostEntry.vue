@@ -85,14 +85,15 @@ export default {
     // },
   },
   created(){
-    try{
-      getLinkPreview(this.post.link).then(data=>{
+      getLinkPreview(this.post.link).then(
+        data=>{
         this.img= data.images[0]
-      })
-      }catch{
-        this.img= "https://i.ibb.co/XtYLhxp/upvote-icon.png"
-      }
-  }
-};
+        },
+        error =>{
+          this.img= "https://i.ibb.co/XtYLhxp/upvote-icon.png"
+        })
+   }
+}
+  
 </script>
 <style src="../../public/styles.css"></style>
