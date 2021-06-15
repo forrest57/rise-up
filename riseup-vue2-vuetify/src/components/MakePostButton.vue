@@ -7,7 +7,9 @@
       >
         Add your favourite site!
       </p>
-      <MakePost v-if="showMakePost" />
+      <v-expand-transition>
+        <MakePost v-show="showMakePost" />
+      </v-expand-transition>
     </div>
   </div>
 </template>
@@ -24,11 +26,10 @@ export default {
     };
   },
   methods: {
-    toggleMakePost() {
-      this.showMakePost = !this.showMakePost
-    },
     shouldLogin() {
-      return this.loggedIn ? this.toggleMakePost() : this.$router.push("/login");
+      return this.loggedIn
+        ? (this.showMakePost = !this.showMakePost)
+        : this.$router.push("/login");
     },
   },
   computed: {

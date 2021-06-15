@@ -6,17 +6,15 @@
     transition="fade-transition"
   >
     <div style="display: flex; width: 100%">
-      <!-- <figure class="media-left"> -->
-        <PostImg :image='this.img'/>
-        <!-- <img class="image is-64x64" :src="dataPost.img" /> -->
-        <!--           :src="submission.submissionImage"-->
-      <!-- </figure> -->
+      <figure class="media-left" @click="openlink" style="cursor:pointer;">
+        <img class="image is-64x64" :src="this.post.img" />
+      </figure>
       <p class="media-content dark is-centered mb-0 has-text-justified">
         <strong
           class="columns title is-vcentered has-text-weight-semibold has-text-info mb-0 pt-1 ml-0"
         >
-          <a class="is-white pr-2">
-            {{ post.link }}
+          <a class="is-white pr-2" @click="openlink">
+            {{ post.displayLink }}
           </a>
           <span class="tag is-dark">#{{ post.id }}</span>
         </strong>
@@ -47,18 +45,16 @@
 </template>
 <script>
 import UserPortrait from "./UserPortrait";
-import PostImg from './postImg';
-import { getLinkPreview, getPreviewFromContent } from "link-preview-js";
+import { getLinkPreview } from "link-preview-js";
 export default {
   name: "post-entry",
   data() {
     return {
-     img: String
+      img: String,
     };
   },
   components: {
     UserPortrait,
-    PostImg
   },
   props: {
     post: Object,
@@ -72,6 +68,9 @@ export default {
     preview() {
       getLinkPreview(this.post.link).then((data) => console.log(data));
     },
+    openlink() {
+      window.open(this.post.link, "_blank");
+    },
   },
   computed: {
     //  linkImg() {
@@ -84,16 +83,15 @@ export default {
     //   }
     // },
   },
-  created(){
-      getLinkPreview(this.post.link).then(
-        data=>{
-        this.img= data.images[0]
-        },
-        error =>{
-          this.img= "https://i.ibb.co/XtYLhxp/upvote-icon.png"
-        })
-   }
-}
-  
+  // created(){
+  //     getLinkPreview(this.post.link).then(
+  //       data=>{
+  //       this.img= data.images[0]
+  //       },
+  //       error =>{
+  //         this.img= "https://i.ibb.co/XtYLhxp/upvote-icon.png"
+  //       })
+  //  }
+};
 </script>
 <style src="../../public/styles.css"></style>

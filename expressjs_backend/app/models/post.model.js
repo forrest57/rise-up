@@ -1,5 +1,5 @@
-const mongoose = require("mongoose")
-const Schema = mongoose.Schema
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 
 // Define collection and schema for Post
 let Post = new Schema(
@@ -11,6 +11,10 @@ let Post = new Schema(
     votes: Number,
 
     displayID: Number,
+
+    displayLink: String,
+
+    img: String,
 
     poster: {
       //posting user
@@ -33,6 +37,6 @@ let Post = new Schema(
   {
     collection: "posts",
   }
-)
+);
 
-module.exports = mongoose.model("Post", Post)
+module.exports = mongoose.model("Post", Post);
