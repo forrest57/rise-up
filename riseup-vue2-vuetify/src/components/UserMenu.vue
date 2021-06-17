@@ -1,4 +1,4 @@
-   <template>
+<template>
   <div class="text-center">
     <v-menu
       offset-y
@@ -8,9 +8,9 @@
       :elevation="1"
     >
       <template v-slot:activator="{ on, attrs }">
-        <v-btn class="primary is-dark"   v-bind="attrs" v-on="on">
-          <v-avatar size="32" >
-          <img v-if="loggedIn" :src="currentUser.img" />
+        <v-btn class="primary is-dark" v-bind="attrs" v-on="on">
+          <v-avatar size="32">
+            <img v-if="loggedIn" :src="userImg" />
           </v-avatar>
         </v-btn>
       </template>
@@ -32,6 +32,7 @@
   </div>
 </template>
 <script>
+import {userPFPs} from '../logic'
 export default {
   name: "UserMenu",
   data: () => ({
@@ -54,6 +55,9 @@ export default {
     },
     pickedMenu() {
       return this.loggedIn ? this.itemsLoggedIn : this.itemsNotLogged;
+    },
+    userImg() {
+      return userPFPs[this.currentUser.img];
     },
   },
 };

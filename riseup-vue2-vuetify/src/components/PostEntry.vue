@@ -13,7 +13,7 @@
         <strong
           class="columns title is-vcentered has-text-weight-semibold has-text-info mb-0 pt-1 ml-0"
         >
-          <a class="is-white pr-2" @click="openlink">
+          <a class="is-dark-orange pr-2" @click="openlink">
             {{ post.displayLink }}
           </a>
           <span class="tag is-dark">#{{ post.id }}</span>

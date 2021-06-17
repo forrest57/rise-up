@@ -184,7 +184,7 @@ export default {
       //   postCount: 0,
       //   roles: ["user"],
       // },
-      user: new User("", "", ""),
+      user: new User("", "", "","1"),
       submitted: false,
       successful: false,
       confirmPassword: "",

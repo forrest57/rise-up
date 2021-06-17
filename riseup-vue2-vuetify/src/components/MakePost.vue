@@ -74,7 +74,7 @@ export default {
         this.post.poster = {
           username: this.currentUser.username,
           id: this.currentUser.id,
-          img: userPFPs.indexOf(this.currentUser.img),
+          img: this.currentUser.img,
         };
         let uri = "//localhost:4000/posts/add";
         this.axios.post(uri, this.post).then(() => {

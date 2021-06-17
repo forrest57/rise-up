@@ -60,7 +60,7 @@ const routes= [
   },
   {
     path: "/user/:username",
-    name: "lookup",
+    name: 'lookup', 
     component: () => import(/* webpackChunkName: "about" */ '../views/Profile.vue')
 
   },

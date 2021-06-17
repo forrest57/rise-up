@@ -20,6 +20,9 @@
 .is-orange{
   color: #FF8C00 !important;
 }
+.is-dark-orange{
+  color: #ff8c00be !important;
+}
 .is-white {
   color: #bfbfbf !important;
 }
